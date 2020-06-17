@@ -39,9 +39,4 @@ src(o1)
   .color(0.1,0,255)
   .out(o3)
 
-
-
-
-
-
 render();
