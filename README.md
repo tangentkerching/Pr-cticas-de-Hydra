@@ -1,4 +1,7 @@
 # Pr-cticas-de-Hydra
+Este Repo contiene varias prácticas de Hydra con varios amigos/as del internet, junto con un tutorial
+en proceso de cómo utilizar Hydra desde 0, sin saber programación.
+
 
 Varias sesiones de live-coding con Hydra.
 
