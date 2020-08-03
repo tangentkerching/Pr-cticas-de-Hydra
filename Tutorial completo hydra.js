@@ -12,15 +12,48 @@ Hydra Synth es un motor de video de código libre creado por Olivia Jack que nos
 Hydra emula el funcionamiento de un sintetizador modular de video, donde cada módulo permite conectar, filtrar o procesar
 una señal de video.
 
-2-. ¿PROGRAMAR?
-Nuestra interfaz en este caso,
-son los símbolos que nosotros interpretamos como letras, y que el computador interpreta como una serie de instrucciones.
-Escribiremos en el editor de Hydra:*/ 
+3.- MANOS A LA OBRA
+Abriremos hydra en nuestro navegador:
+
+https://hydra.ojack.xyz/
+
+Escribiremos en el editor de Hydra:*/
 osc(1,1,1).out()
-//y luego presionaremos ctrl+enter para Evaluar el código.
+/* y luego presionaremos CTRL+SHIFT+ENTER para evaluar el código.
+Veremos un fondo que cambia de color en nuestra pantalla.
+
+Acabamos de evaluar nuestra primera línea de código.
+El computador utilizó esta línea como una instrucción para presentar un oscilador.
+
+Un oscilador es una fuente que crea una señal.
+Existen varias fuentes en hydra, cada una de ellas nos entrega una señal
+que podemos utilizar para generar video.
+
+Los números separados por comas dentro del paréntesis, se llaman parámetros.
+Un parámetro es un valor que le asignamos a nuestra fuente para obtener un resultado.
+
+Luego de osc(1,1,1) vemos la función .out()
+la función .out() nos permite ver el resultado de nuestra fuente en la pantalla.
+
+Prueba con cambiar los números que se encuentran dentro de la fuente osc(1,1,1)
+por otros números, y experimenta con sus variaciones.
+Presiona CTRL+SHIFT+ENTER para poder ver los cambios que has realizado.
+
+Recuerda que debes llamar a
+la función .out()
+para poder ver el oscilador en la pantalla.
+
+Si has cambiado los parámetros por otros números, debiste haber notado que los resultados
+cambian. Te invito a probar la función, que acepta sólo un parámetro */
+voronoi()
+/*
+recuerda que debes encadenar la función de salida
+*/
+.out()
 /*
 
-osc es la función de oscilador, que nos permite crear un oscilador, entregándole parámetros sobre los cuales funcionará.
+osc es la función de oscilador, que nos permite crear un oscilador, entregándole
+parámetros sobre los cuales funcionará.
 Una función, en Javascript (que es el lenguaje de Hydra-synth) tiene la siguiente sintaxis:
 
 Ejemplo:
